@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha index.test.js",
+    "edu": "mocha ./src/index.js",
     "postinstall": "node postinstall.js"
   },
   "engines": {
